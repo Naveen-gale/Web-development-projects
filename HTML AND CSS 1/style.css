@@ -1,0 +1,107 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizeing: border-box;
+    background-iamge:url();
+}
+
+
+#loder{
+    background: #000;
+    height: 100vh;
+    width: 100%;
+    position :fixed ;
+    z-index :100;
+}
+
+body {
+  background-image: url(".jpg");
+}
+
+
+.containar{
+    background:#33556698;
+    min-height: 100vh;
+    border: 20px solid #000000;
+}
+.content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+.Top{
+    display:flex;
+    justify-content:space-between;
+    margin-top:100px;
+    align-items:flex-end;
+}
+.Top h1{
+    font-size:55px;
+    font-wigth:bold;
+    text-transform:uparcase;
+}
+.Top h3{
+    text-align:end;
+}
+
+
+.img-containar {
+    border-radius: 25%;
+    overflow:hidden;
+}
+
+
+.img-containar, 
+ img{
+    width: 300px;
+    height: 320px;
+    
+}
+
+
+.about {
+    margin-top:40px ;
+}
+
+.about h1 {
+ font-size:60px;   
+ font-wigth:25px;
+ margin-bottom:50px;
+}
+.about p{
+    font-size:30px;
+     font-wigth:20px;
+     line-height:50px;     
+     text-align :justify;    
+}
+.achievements{
+    margin-top:20px ;
+    
+}
+.achievements 
+h1{
+    margin-bottom:25px;
+    font-size:55px ;
+    
+}
+.achievements 
+ul{
+margin-left:50px;
+text-align;justify;
+}
+.achievements li{
+    margin-bottom: 15px;
+}
+
+
+
+.footer
+ a {
+    font-size :20px ;
+    text-top:40px;
+    text-align :end ;
+    
+}
+.footer {
+    text-align :non;
+}
